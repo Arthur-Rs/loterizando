@@ -84,6 +84,16 @@ strong.cvo {
 	background: #f1f1f1;
 	color: #131313;
 }
+.lotoimg{
+	width: 40vw;
+}
+
+@media (max-width:900px){
+	.lotoimg{
+		width: 95vw;
+	}
+}
+
 .fx2 {
 	background: #131313;
 	color: #fff;
