@@ -38,7 +38,7 @@ strong.cvo {
 	padding: 0 10px;
 }
 strong.cve {
-	background-color: #264B96;
+	background-color: #168039;
 }
 strong.cvo {
 	background-color: #ea4335;
@@ -49,12 +49,12 @@ strong.cvo {
 .botao,
 .botao:hover {
 	cursor: pointer;
-	background-color: #375ead;
+	background-color:#085e00;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	border-radius: 10px;
 	display: inline-block;
-	color: #0d275c;
+	color: #021800;
 	font-size: .8rem;
 	line-height: 1rem;
 	text-decoration: none !important;
@@ -66,19 +66,23 @@ strong.cvo {
 	font-size: 2.3rem;
 	font-weight: 700;
 	line-height: 2.3rem;
-	text-shadow: 1px 1px #244ea3;
+	text-shadow: 1px 1px #021800;
 }
 .modal .botao {
 	font-size: 1.8rem;
 	line-height: 1.8rem;
 }
 .botao:hover {
-	background-color: #1d428b;
+	background-color: #085e00;
 	color: #fff;
 }
 .botao:active {
 	position: relative;
 	top: 1px;
+}
+.video{
+	height: 300px;
+	width: 32vw;
 }
 .fx1 {
 	background: #f1f1f1;
@@ -91,6 +95,10 @@ strong.cvo {
 @media (max-width:900px){
 	.lotoimg{
 		width: 95vw;
+	}
+
+	.video{
+		width: 100%;
 	}
 }
 
@@ -106,7 +114,7 @@ strong.cvo {
 	margin-top: 1rem;
 }
 .cve {
-	color: #264B96
+	color: #085e00;
 }
 .cvo {
 	color: #ea4335;
@@ -134,7 +142,7 @@ strong.cvo {
 	0%,
 	100% {
 		-webkit-transform: scale(.95);
-		opacity: .7;
+		opacity: .5;
 	}
 	50% {
 		-webkit-transform: scale(1);
