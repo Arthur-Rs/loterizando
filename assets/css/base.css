@@ -38,7 +38,7 @@ strong.cvo {
   padding: 0 10px;
 }
 strong.cve {
-  background-color: #168039;
+  background-color: #f0aa13;
 }
 strong.cvo {
   background-color: #ea4335;
@@ -49,31 +49,30 @@ strong.cvo {
 .botao,
 .botao:hover {
   cursor: pointer;
-  background-color: #36812f;
+  background-color: #f0aa13;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
   display: inline-block;
   color: #042e00;
-  font-size: 0.8rem;
+  font-size: 1rem;
   line-height: 1rem;
   text-decoration: none !important;
   padding: 1rem;
 }
 .botao .text-uppercase,
 .modal .botao {
-  color: #fff;
+  color: rgb(36, 32, 32);
   font-size: 2.3rem;
   font-weight: 700;
   line-height: 2.3rem;
-  text-shadow: 1px 1px #021800;
 }
 .modal .botao {
   font-size: 1.8rem;
   line-height: 1.8rem;
 }
 .botao:hover {
-  background-color: #097000;
+  background-color: #e29d07;
   color: #fff;
 }
 .botao:active {
@@ -115,7 +114,7 @@ strong.cvo {
   margin-top: 1rem;
 }
 .cve {
-  color: #085e00;
+  color:#e4bd0f;;
 }
 .cvo {
   color: #ea4335;
@@ -220,4 +219,17 @@ strong.cvo {
   border-left: 1px solid #e9ebee;
   margin-left: 50px;
   padding: 0 0 0 9px;
+}
+
+header {
+  padding-top: 1.5rem !important;
+}
+
+.background-black {
+  background-color: #212223;
+  color: #fefefe
+}
+
+div.subtitle {
+  color: #fefefe !important;
 }
