@@ -8,9 +8,10 @@ body {
 h1,
 h2,
 h3 {
-  font-family: "Roboto Slab", serif;
-  font-size: 1.6rem;
-  line-height: 1.8rem;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 0.15rem;
+  font-size: 2rem;
+  line-height: 2.2rem;
 }
 h1 {
   font-weight: 700;
@@ -38,7 +39,7 @@ strong.cvo {
   padding: 0 10px;
 }
 strong.cve {
-  background-color: #f0aa13;
+  background-color: #f88407;
 }
 strong.cvo {
   background-color: #ea4335;
@@ -49,12 +50,12 @@ strong.cvo {
 .botao,
 .botao:hover {
   cursor: pointer;
-  background-color: #f0aa13;
+  background-color: #f88407;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
   display: inline-block;
-  color: #042e00;
+  color: #1b1b1b96;
   font-size: 1rem;
   line-height: 1rem;
   text-decoration: none !important;
@@ -62,7 +63,7 @@ strong.cvo {
 }
 .botao .text-uppercase,
 .modal .botao {
-  color: rgb(36, 32, 32);
+  color: #252525;
   font-size: 2.3rem;
   font-weight: 700;
   line-height: 2.3rem;
@@ -72,7 +73,7 @@ strong.cvo {
   line-height: 1.8rem;
 }
 .botao:hover {
-  background-color: #e29d07;
+  background-color: #e78012;
   color: #fff;
 }
 .botao:active {
@@ -114,7 +115,7 @@ strong.cvo {
   margin-top: 1rem;
 }
 .cve {
-  color:#e4bd0f;;
+  color:#f88407;;
 }
 .cvo {
   color: #ea4335;
@@ -226,10 +227,13 @@ header {
 }
 
 .background-black {
-  background-color: #212223;
+  background-color: #030303;
   color: #fefefe
 }
 
 div.subtitle {
   color: #fefefe !important;
+}
+.mb-2 {
+  font-size: 1rem
 }
